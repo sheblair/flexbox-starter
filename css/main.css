@@ -122,14 +122,18 @@ main {
   width: 100%;
 }
 
-header,
-footer,
-main {
-
+header, footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .flex-items {
@@ -139,6 +143,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
